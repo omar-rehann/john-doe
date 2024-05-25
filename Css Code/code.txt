@@ -1,0 +1,402 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: sans-serif;
+}
+/* start page */
+.page{
+    background-color: black;
+    min-height: 100vh;
+}
+.all-h2{
+    color: white;
+    font-weight: bold;
+    position: relative;
+    text-align: left;
+    margin-left: 30px;
+}
+.page .project{
+    display: flex;
+}
+.page .project aside{
+    background-color:#222222;
+    width: 100px;
+    color: white;
+    box-shadow:  0px 0px white 10px;
+}
+.page .project div {
+    text-align: center;
+    line-height: 2;
+}
+.page .project aside div img{
+    max-width: 100%;
+
+}
+.page .project aside div i{
+    color: white;
+
+}
+.page .project aside div a{
+    color: white;
+    font-weight: bold;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    display: block;
+    transition: 0.6s;
+
+}
+.page .project aside div:hover a{
+    color: red;
+}
+.page .project .content-project {
+    width: 100%;
+}
+.page .project .content-project .header{
+    margin-top: 20px;
+}
+.page .project .content-project .header h1{
+    font-weight: bold;
+    color: white;
+    width: 100%;
+    font-size: 40px;
+}
+.page .project .content-project .header h5{
+    font-weight: bold;
+    color: white;
+    margin-top: -10px;
+}
+.page .project .content-project .after-header img{
+    width: 100%;
+
+}
+.page .project .content-project .info h2::before{
+    content: "";
+    position: absolute;
+    width: 130px;
+    border-radius: 30px;
+    height: 4px;
+    background-color: white;
+    bottom: 0px;
+    left: 0px;
+
+}
+.page .project .content-project .info p{
+    color: white;
+    width: 100%;
+    color: grey;
+    padding: 10px;
+    text-align: left;
+}
+.page .project .content-project .skill{
+    overflow: hidden;
+    padding:10px;
+}
+.page .project .content-project .skill h3{
+    color: white;
+    text-align: left;
+    margin-left: 20px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+.page .project .content-project .skill h2::before{
+    content: "";
+    position: absolute;
+    width: 130px;
+    border-radius: 30px;
+    height: 4px;
+    background-color: white;
+    bottom: 0px;
+    left: 0px;
+}
+.page .project .content-project .skill .progress{
+    width: 95%;
+    height: 25px;
+    background-color: white;
+    /* padding: 10px; */
+    margin: 15px;
+    position: relative;
+    border-radius: 3px
+
+}
+.page .project .content-project .skill .progress span{
+    position: absolute;
+    height: 100%;
+    left: -2px;
+    top: 0px;
+    border-radius: 3px;
+    background-color: #616161;
+    
+
+    
+}
+.page .project .content-project .number-project{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 20px;
+    padding: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+@media (max-width:767px) {
+    .page .project .content-project .number-project{
+        flex-direction: column;
+        line-height: 2;
+    }
+    
+}
+.page .content-project .before-price a{
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    padding: 7px;
+    display: block;
+    width: fit-content;
+    border-radius: 3px;
+    margin-left: 20px;
+    transition: 0.5s;
+}
+
+.page .content-project .before-price a:hover
+{
+    background-color: red;
+    color: white;
+}
+@media (max-width:600px) {
+    .page .content-project .before-price{
+        text-align: center;
+        margin: 10px auto;
+    }
+    
+}
+.page .content-project .before-price a:hover i{
+    color: white !important;
+}
+.page .project .content-project .price h2::before{
+    content: "";
+    position: absolute;
+    width: 110px;
+    border-radius: 30px;
+    height: 4px;
+    background-color: white;
+    bottom: 0px;
+    left: 0px;
+}
+.page .project .content-project .price .content-price{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(500px,1fr));
+    gap: 10px;
+    margin: 10px;
+    border-radius: 5px;
+}
+@media (max-width:767px) {
+    .page .project .content-project .price .content-price{
+        display: grid;
+        grid-template-columns:minmax(200px,1fr);
+        gap: 10px;
+        margin: 10px;
+    }
+    
+}
+.page .project .content-project .price .content-price .box{
+    background:white;
+    margin-left: 20px;
+    width: 100%;
+    margin: 10px auto;
+    border-radius: 5px;
+}
+.page .project .content-project .price .content-price .box h1{
+
+    background-color: #616161;
+    color: white;
+    padding: 10px;
+    
+}
+.page .project .content-project .price .content-price .box ul{
+    list-style-type:none;
+    
+}
+.page .project .content-project .price .content-price .box ul li{
+    line-height: 2;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    color: black;
+    padding-bottom: 10px;
+    
+}
+.page .project .content-project .price .content-price .box ul li{
+    border-bottom:  solid 2px grey;
+}
+.page .project .content-project .price .content-price .box ul li span{
+    color: grey;
+    display: block;
+    
+}
+.page .project .content-project .price .content-price .box a{
+    text-decoration: none;
+    background: black;
+    color: white;
+    padding: 5px;
+    display: block;
+    width: 30%;
+    margin: 10px auto;
+    border-radius: 3px;
+    transition: 0.5s;
+}
+.page .project .content-project .price .content-price .box a:hover{
+    background-color: red;
+    color: white;
+}
+.page .project .content-project .My-Reputation h2::before{
+    content: "";
+    position: absolute;
+    width: 130px;
+    border-radius: 30px;
+    height: 4px;
+    background-color: white;
+    bottom: 0px;
+    left: 0px;
+}
+.page .project .content-project .My-Reputation .content div{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    color: white;
+
+}
+@media (max-width:767px) {
+    .page .project .content-project .My-Reputation .content div{
+        flex-direction: column;
+        text-align: center;
+    
+    }
+    
+}
+.page .project .content-project .My-Reputation .content div .image img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-left: 20px;
+    margin-right: 10px;
+
+}
+.page .project .content-project .My-Reputation .content div .about h6{
+    color: gray;
+}
+.page .project .content-project .My-Reputation .content div .about span{
+    color: gray;
+}
+.page .project .content-project .photos h2::before{
+    content: "";
+    position: absolute;
+    width: 130px;
+    border-radius: 30px;
+    height: 4px;
+    background-color: white;
+    bottom: 0px;
+    left: 0px;
+}
+.page .project .content-project .photos .content{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(500px,1fr));
+    gap: 10px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.page .project .content-project .photos .content img{
+    width: 100%;
+    border-radius: 3px;
+}
+@media (max-width:767px) {
+    .page .project .content-project .photos .content{
+        display: grid;
+        grid-template-columns:minmax(200px,1fr);
+        gap: 10px;
+        margin-left: 10px;
+    margin-right: 10px;
+    }
+    
+}
+.page .project .content-project .contact{
+    margin-top: 30px;
+}
+.page .project .content-project .contact h2::before{
+    content: "";
+    position: absolute;
+    width: 130px;
+    border-radius: 30px;
+    height: 4px;
+    background-color: white;
+    bottom: 0px;
+    left: 0px;
+}
+.page .project .content-project .contact .info h4{
+    color: #ddd;
+    margin-left: 36px;
+    text-align: left;
+}
+.page .project .content-project .contact .form p{
+    color: grey;
+    text-align: left;
+    margin-left: 30px;
+
+}
+.page .project .content-project .contact .form input{
+    display: block;
+    width: 95%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding: 10px;
+    margin: 20px auto;
+    border-radius: 5px;
+    border: none;
+    
+}
+.page .project .content-project .contact .form Button{
+    background: grey;
+    padding: 10px;
+    border: none;
+    color: black;
+    font-weight: bold;
+    border-radius: 4px;
+    display: block;
+    margin-left: 30px;
+    transition: 0.5s;
+    cursor: pointer;   
+}
+.page .project .content-project .contact .form button:hover{
+    background-color: white;
+}
+.page .project .content-project .footer{
+    text-align: left;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.page .project .content-project .footer i{
+    margin-left: -8px;
+    width: 34px;
+    transition: 0.5s
+}
+.page .project .content-project .footer i:hover{
+    color: white !important;
+    cursor: pointer;
+}
+.page .project .content-project .footer .end p{
+    text-align: left;
+    color: gray;
+}
+.page .project .content-project .footer .end p a{
+    color: gray;
+}
+/* end page */

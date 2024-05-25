@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>John Doe</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+    <!-- start page -->
+    <div class="page">
+        <!-- statrt project -->
+        <div class="project">
+            <aside>
+                <div>
+                    <img src="photo/Logo.jpg" alt="">
+                </div>
+                <div>
+                    <i class="fa-solid fa-house"></i>
+                    <a href="#Home">Home</a>
+                </div>
+                <div>
+                    <i class="fa-regular fa-user"></i>
+                    <a href="#about">About</a>
+                </div>
+                <div>
+                    <i class="fa-regular fa-eye"></i>
+                    <a href="#photo">Photos</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-address-book"></i>
+                    <a href="#contact">Contact</a>
+                </div>
+            </aside>
+            <div class="content-project" id="Home">
+                <div class="header">
+                    <h1>I'm John Doe.
+                    </h1>
+                    <h5>Photographer and Web Designer.
+
+                    </h5>
+                </div>
+                <div class="after-header">
+                    <img src="photo/Logo.jpg" alt="">
+                </div>
+                <div class="info">
+                    <h2 class="all-h2">My Name</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis quos architecto ad sequi tenetur debitis quod aliquam nesciunt saepe itaque explicabo, velit quibusdam blanditiis! Labore, velit ut quaerat earum temporibus reiciendis, quod aliquid rerum inventore delectus quae consectetur impedit hic quam suscipit! Perspiciatis facilis rem, veritatis blanditiis beatae vero et quidem commodi corporis necessitatibus voluptatum aspernatur laboriosam expedita soluta officiis unde. Est optio dolore, eum eaque enim tempora ad, dignissimos recusandae illo magnam possimus corporis quo quas officiis placeat dicta facilis quam inventore culpa saepe iste! Minus possimus voluptatibus fugit quae consequatur repellat enim? Aliquam quo, dicta quod accusantium repudiandae quas explicabo blanditiis, earum veritatis vero animi nulla hic. Quam fugit asperiores, quaerat optio dolorem nemo voluptates non maiores reiciendis soluta voluptate pariatur est. Quas suscipit illo quis quaerat vitae veniam nihil aliquam accusantium tempore, odio quibusdam perferendis, dolores cumque nam ratione, blanditiis voluptatem qui ea facilis harum iste. Esse!</p>
+                </div>
+                <div class="skill" id="about">
+                    <h2 class="all-h2">Skills</h2>
+                    <h3>Photography
+                    </h3>
+                    <div class="progress">
+                        <span style="width: 90%;"></span>
+                    </div>
+                    <h3>Web Design
+                    </h3>
+                    <div class="progress">
+                        <span style="width: 70%;"></span>
+                    </div>
+                    <h3>Development
+                    </h3>
+                    <div class="progress">
+                        <span style="width: 60%;"></span>
+                    </div>
+                </div>
+                <div class="number-project">
+                    <div>
+                        <h2>11+
+                        </h2>
+                        <span>Partners</span>
+                    </div>
+                    <div>
+                        <h2>55+
+                        </h2>
+                        <span>Project Done</span>
+                    </div>
+                    <div>
+                        <h2>88+
+                        </h2>
+                        <span>Happy Cilents</span>
+                    </div>
+                    <div>
+                        <h2>150+
+                        </h2>
+                        <span>Mettings</span>
+                    </div>
+                </div>
+
+                <div class="before-price">
+                    <a href=""> <i class="fa-solid fa-download" style="margin-right: 3px;color: black;"></i>Donwnload Free Project</a>
+                </div>
+                <div class="price">
+                    <h2 class="all-h2">Price</h2>
+                    <div class="content-price">
+                        <div class="box">
+                            <h1>Basic</h1>
+                            <ul>
+                                <li>Web Design
+                                </li>
+                                <li>Photography
+
+                                </li>
+                                <li>5GB Storage
+
+                                </li>
+                                <li>Mail Support
+
+                                </li>
+                                <li>$ 10
+                                    <span>per month
+                                    </span>
+
+                                </li>
+                            </ul>
+                            <a href="#">Sign Up</a>
+
+                        </div>
+                        <div class="box">
+                            <h1>Pro</h1>
+                            <ul>
+                                <li>Web Design
+                                </li>
+                                <li>Photography
+
+                                </li>
+                                <li>5GB Storage
+
+                                </li>
+                                <li>Mail Support
+
+                                </li>
+                                <li>$ 10
+                                    <span>per month
+                                    </span>
+
+                                </li>
+                            </ul>
+                            <a href="#">Sign Up</a>
+
+
+                        </div>
+
+                    </div>
+                </div>
+                <div class="My-Reputation">
+                    <h2 class="all-h2">My Reputation
+                    </h2>
+                    <div class="content">
+                        <div>
+                            <div class="image">
+                                <img src="photo/img-one.jpg" alt="">
+                                
+                            </div>
+                            <div class="about">
+                                <h4>Wilsson Akakbo. CEO at Mighty Schools. <br>John Doe saved us from a web disaster.
+
+                                </h4>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="image">
+                                <img src="photo/img-two.jpg" alt="">
+                                
+                            </div>
+                            <div class="about">
+                                <h4>Chris Fox. CEO at Mighty Schools. <br>John Doe saved us from a web disaster.
+
+                                </h4>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="image">
+                                <img src="photo/Logo.jpg" alt="">
+                                
+                            </div>
+                            <div class="about">
+                                <h4>Xavi Onana. CEO at Mighty Schools. <br>John Doe saved us from a web disaster.
+
+                                </h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="photos" id="photo">
+                    <h2 class="all-h2">Mu Photos</h2>
+                    <div class="content">
+                        <img src="https://img.freepik.com/free-psd/monochrome-portrait-woman-with-chromatic-edge-effect_23-2150795970.jpg?size=626&ext=jpg&ga=GA1.1.159109612.1694961865&semt=ais" alt="">
+                        <img src="https://img.freepik.com/free-psd/glass-reflection-photo-effect_23-2150326978.jpg?size=626&ext=jpg&ga=GA1.1.159109612.1694961865&semt=ais" alt="">
+                        <img src="https://img.freepik.com/free-psd/dreamy-motion-blur-photo-effect_23-2150729964.jpg?size=626&ext=jpg&ga=GA1.1.159109612.1694961865&semt=ais" alt="">
+                        <img src="https://img.freepik.com/free-psd/monochrome-portrait-woman-with-chromatic-edge-effect_23-2150795976.jpg?size=626&ext=jpg&ga=GA1.1.159109612.1694961865&semt=ais" alt="">
+                        <img src="https://img.freepik.com/premium-psd/vector-art-photo-effect-template_95007-202.jpg?size=626&ext=jpg&ga=GA1.1.159109612.1694961865&semt=ais" alt="">
+                        <img src="https://img.freepik.com/free-photo/handwritten-text-photograph_23-2150714344.jpg?size=626&ext=jpg&ga=GA1.1.159109612.1694961865&semt=ais" alt="">
+
+                    </div>
+    
+                </div>
+                <div class="contact" id="contact">
+                    <h2 class="all-h2 .before">Contact Me</h2>
+                    <div class="info">
+                        <h4> <i class="fa-solid fa-location-dot" style="color: #ffffff;margin-right: 5px;"></i> Chicago, US
+
+                        </h4>
+                        <h4><i class="fa-solid fa-phone" style="color: #ffffff;margin-right: 5px;"></i> Phone: +00 151515
+
+                        </h4>
+                        <h4><i class="fa-solid fa-envelope" style="color: #ffffff;margin-right: 5px;"></i> Email: mail@mail.com
+
+                        </h4>
+                    </div>
+                    <div class="form">
+                        <p>Let's get in touch. Send me a message:</p>
+                        <input type="text" placeholder="Name" name="" id="">
+                        <input type="email" placeholder="Email" name="" id="">
+                        <input type="text" placeholder="Subjects" name="" id="">
+                        <input type="text" placeholder="Message" name="" id="">
+                        <button><i class="fa-solid fa-paper-plane" style="margin-right: 4px;color: black;"></i>Send Message</button>
+
+                    </div>
+                </div>
+                <div class="footer">
+                    <i class="fa-brands fa-facebook" style="color: #464646;"></i>
+                    <i class="fa-brands fa-facebook-messenger" style="color: #464646;"></i>
+                    <i class="fa-brands fa-instagram" style="color: #464646;"></i>
+                    <i class="fa-brands fa-linkedin" style="color: #464646;"></i>
+                    <i class="fa-brands fa-github" style="color: #464646;"></i>
+                    <i class="fa-brands fa-pinterest" style="color: #464646;"></i>
+                    <div class="end">
+                        <p>Powerd By <a href="">W3.school</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end project -->
+
+    </div>
+    <!-- end page -->
+    
+</body>
+</html>
